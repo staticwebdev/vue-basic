@@ -40,6 +40,6 @@ jobs:
     - name: Build production build
       run: npm run build
     - name: Run a multi-line script
-        run: |
+      run: |
           npm run serve
           npx playwright test
